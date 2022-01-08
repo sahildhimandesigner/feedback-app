@@ -15,11 +15,11 @@ function App(){
         <>
             {title} <br /> {body} <br />
 
-            {showcomment ? (<ul>
+            {showcomment && (<ul>
                 {comments.map((comment, index) => (
                     <li key={index}>{comment.text}</li>
                 ))}
-            </ul>) : 'no'}
+            </ul>)}
             
         </>
     )
