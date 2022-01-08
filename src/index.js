@@ -1,3 +1,4 @@
 import ReactDOM from "react-dom";
+import MainComponent from './App'
 
-ReactDOM.render(<h1>My Feedback App</h1>, document.getElementById("root"));
+ReactDOM.render(<MainComponent />, document.getElementById("root"));
