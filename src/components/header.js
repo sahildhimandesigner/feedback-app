@@ -1,11 +1,15 @@
-function Header(){
+function Header({ text }){
     return(
         <header>
             <div className="container">
-                <h2>Feedback UI</h2>
+                <h2>{text}</h2>
             </div>
         </header>
     )
+}
+
+Header.defaultProps = {
+    text: 'Default PropType Feedback UI',
 }
 
 export default Header;
