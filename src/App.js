@@ -11,15 +11,17 @@ function App(){
 
     const showcomment = true;
 
+    const commentBlock = (<ul>
+                {comments.map((comment, index) => (
+                    <li key={index}>{comment.text}</li>
+                ))}
+            </ul>)
+
     return(
         <>
             {title} <br /> {body} <br />
 
-            {showcomment && (<ul>
-                {comments.map((comment, index) => (
-                    <li key={index}>{comment.text}</li>
-                ))}
-            </ul>)}
+            {showcomment && commentBlock}
             
         </>
     )
