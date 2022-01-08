@@ -2,7 +2,7 @@ import Header from "./components/header";
 
 function App(){
     return(
-        <>  <Header />
+        <>  <Header text={true} />
             <h1>My app</h1>            
         </>
     )
