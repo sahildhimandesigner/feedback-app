@@ -1,11 +1,6 @@
-import React from "react";
-import react, { createElement } from "react";
 
 function App(){
-    return react,createElement('div', {
-        className: 'container'},
-        React.createElement('h1', {}, 'My app')
-        )
+    return(<h1>My Feedback application here</h1>)
 }
 
 export default App;
