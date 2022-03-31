@@ -1,19 +1,19 @@
 const FeedbackData = [
-    {
-        id: 1,
-        rating: 5,
-        text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don',
-    },
-    {
-        id: 2,
-        rating: 10,
-        text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don',
-    },
-    {
-        id: 3,
-        rating: 15,
-        text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don',
-    }
+  {
+    id: 1,
+    rating: 10,
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. consequuntur vel vitae commodi alias voluptatem est voluptatum ipsa quae.',
+  },
+  {
+    id: 2,
+    rating: 9,
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. consequuntur vel vitae commodi alias voluptatem est voluptatum ipsa quae.',
+  },
+  {
+    id: 3,
+    rating: 8,
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. consequuntur vel vitae commodi alias voluptatem est voluptatum ipsa quae.',
+  },
 ]
 
-export default FeedbackData;
+export default FeedbackData
