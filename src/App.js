@@ -1,7 +1,7 @@
 import Header from "./components/header";
 import FeedbackList  from "./components/FeedbackList";
-import FeedbackData from './data/FeedbackData'
-import FeedbackState from './components/FeedbackStats'
+import FeedbackData from './data/FeedbackData';
+import FeedbackState from './components/FeedbackStats';
 import { useState } from "react";
 
 function App(){
