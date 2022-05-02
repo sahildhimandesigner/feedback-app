@@ -3,10 +3,15 @@ import PropTypes from 'prop-types'
 import Card from './shared/Card'
 
 function FeedbackItem({item}){
+
+    const closePost = (id) => {
+        console.log(id)
+    }
+
     return(
         <Card>
             <div className="num-display">{item.rating}</div>
-            <button className='close'>
+            <button className='close' onClick={()=> closePost(item.id)}>
                 <FaTimes color='purple' />
             </button>
             <div className="text-display">{item.text}</div>
