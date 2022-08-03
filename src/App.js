@@ -14,12 +14,18 @@ function App(){
             setFeedback(feedback.filter((item) => item.id !== id))            
         }
     }
+
+    //WE PASS THIS FUNCTION TO FEEDBACK FORM AS PROPS
+    const addFeedback = (newFeedback) => {
+        console.log(newFeedback, 'new feedback')
+        setFeedback([newFeedback, ...feedback])
+    }
     
     return(
         <>  
             <Header />
             <div className="container">
-                <FeedbackForm />
+                <FeedbackForm handleAdd={addFeedback} />
                 <FeedbackState feedback={feedback} />
                 <FeedbackList 
                     feedback={feedback} 
